@@ -8,17 +8,24 @@
     *   🎵 **Zpěvák:** Trénink intonace, stupnic a hlasového rozsahu.
     *   🎤 **Rapper:** Cvičení na flow, rytmickou přesnost a dech.
     *   🗣️ **Mluvčí:** Rétorika, artikulace a tempo řeči.
-*   **Real-time Visualizer:** Okamžitá vizuální zpětná vazba (spektrogram, pitch detection).
-*   **AI Kouč (Gemini 2.5):** Po každém cvičení obdržíte personalizovanou zpětnou vazbu na základě vašeho výkonu.
+*   **Interaktivní Hry (Gamifikace):**
+    *   Hra "Trefování tónů" pro trénink hudebního sluchu.
+    *   Režimy: **Náhodně** (AI vybírá tóny) nebo **Manuálně** (hráč vybírá na virtuální klaviatuře).
+    *   Podpora hudebních stupnic (Dur, Moll, Chromatika).
+*   **Pokročilá Audio Analýza:**
+    *   **Real-time Visualizer:** Spektrogram, detekce tónu (Pitch detection) a vizuální historie.
+    *   **Chytrá zpětná vazba:** Indikátory ladění (Výš/Níž v centech) a dB metr hlasitosti.
+    *   **Mikrofonní EQ:** Vestavěný 2-pásmový ekvalizér (Basy/Výšky) pro optimalizaci vstupu.
+*   **AI Kouč (Gemini 2.5):** Po každém cvičení obdržíte personalizovanou zpětnou vazbu na základě naměřených dat.
 *   **Audio Nástroje:** Integrovaný metronom, referenční tóny a TTS (Text-to-Speech) ukázky cvičení.
-*   **Statistiky:** Sledování pokroku v čase pomocí grafů.
-*   **Mobile-First Design:** Aplikace se chová jako nativní appka na iOS i Androidu.
+*   **Statistiky:** Sledování pokroku v čase pomocí grafů a detailní historie.
+*   **Mobile-First Design:** Aplikace se chová jako nativní appka na iOS i Androidu (podpora gest, no-sleep).
 
 ## 🛠️ Použité Technologie
 
 *   **Frontend:** React 19, TypeScript
 *   **Styling:** Tailwind CSS, Lucide Icons
-*   **Audio:** Web Audio API (Oscillators, AnalyserNode, AudioContext)
+*   **Audio:** Web Audio API (Oscillators, AnalyserNode, AudioContext, BiquadFilterNode)
 *   **AI:** Google Gemini API (`@google/genai`)
 *   **Vizualizace dat:** Recharts, HTML5 Canvas
 
