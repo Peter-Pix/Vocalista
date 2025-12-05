@@ -1,0 +1,7 @@
+{
+  "name": "Vokalista 2.OU",
+  "description": "Vokalista - Aplikace pro hlasovou rozcvičku a analýzu v reálném čase s využitím AI pro zpěváky a rappery. Nabízí frekvenční analýzu, trénink tónů, kontrolu rytmiky a sledování historického pokroku.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
